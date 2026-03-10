@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+pandas
+numpy
+nltk
+matplotlib
+seaborn
+plotly
+streamlit
+google-search-results
