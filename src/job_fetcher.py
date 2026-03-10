@@ -34,7 +34,7 @@ def fetch_jobs_from_linkedin(query="Data Scientist", location="India", num_resul
         "engine": "google_jobs",
         "q": f"{query} in {location}",
         "hl": "en",
-        "api_key": "d8762964afd6f7425253ec3e7ce4e794daf3eba5f5d0e84ed678129d267e6c2c",
+        "api_key": os.getenv("SERPAPI_API_KEY"),
     }
 
     search = GoogleSearch(params)
